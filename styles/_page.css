@@ -4,7 +4,7 @@
 
 .page-title {
   text-align: center;
-  margin-bottom: calc(var(--gutter-wide) * 3);
+  margin-bottom: calc(var(--gutter-wide) * 2);
 }
 
 .gallery__row {
@@ -33,6 +33,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
+  height: 100%;
 }
 
 .gallery__image--wide {

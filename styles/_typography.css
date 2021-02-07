@@ -1,77 +1,33 @@
-h1, h2, p, a, label {
-    font-family: 'Nunito';
+body {
+    font-family: var(--body-font);
+    font-size: var(--body-font-size);
+    font-weight: 300;
     color: var(--dark);
+    letter-spacing: 4px;
 }
 
-.logo {
-    font-family: 'Pacifico';
-    font-size: 2.4rem;
-}
-
-.nav-links {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-}
-
-.heading-main {
-    font-weight: 700;
-    font-size: 4vw;
-    line-height: 6vw;
+.nav-main {
     color: var(--light);
+    text-transform: lowercase;
 }
 
-.full-stop {
-    color: var(--salmon);
+.hero__title {
+    font-family: 'La Belle Aurore';
+    text-transform: lowercase;
+    font-size: 36px;
+    font-weight: 300;
 }
 
-.heading-main-alt {
-    font-family: 'Pacifico';
-    color: var(--aqua);
+.section-header {
+    font-size: 34px;
 }
 
-.heading-big {
-    font-weight: 700;
-    font-size: 3rem;
-    background: var(--beige);
-    text-align: center;
-    padding: 8rem 0;
-    margin-bottom: calc(2 * var(--gutter));
-}
-
-.heading-medium {
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
-.text-regular {
-    line-height: 1.8rem;
-}
-
-.text-small {
-    font-family: 'Nunito';
-    font-size: 0.8rem;
-    line-height: 1.8rem;
-    color: #4A4A4A;
-}
-
-.text-links {
-    line-height: 1.9rem;
-    color: var(--aqua);
-    text-decoration: underline;
-    position: absolute;
-    bottom: 0;
-    transform: translateX(-50%);
-}
-
-.article-links {
-    line-height: 1.8rem;
-    text-decoration: underline;
+.text-content__text {
+    letter-spacing: 2px;
 }
 
 @media screen and (max-width: 768px) {
-
-    .heading-big {
-        margin-bottom: var(--gutter);
+    .hero__title {
+        font-size: 30px;
     }
-
 }

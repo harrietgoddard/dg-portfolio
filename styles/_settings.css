@@ -1,25 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=La+Belle+Aurore&display=swap');
 
 :root {
-    --salmon: #FF6A7C;
-    --dark: #4A4A4A;
-    --light: #FEFEFE;
-    --aqua: #41CADD;
-    --beige: #FFF0E9;
-    --gray: #B2B5BA;
-    --gutter: 1rem;
-    --gutterwide: 2.5rem;
+    --dark: #232323;
+    --light: #FFFAFA;
+    --accent: #FFA07A;
+    --gutter: 20px;
+    --gutter-wide: 30px;
+    --body-font: 'Roboto';
+    --body-font-size: 16px;
 }
 
-.wrapper {
-    margin: 0 var(--gutter);
+body {
+    background-color: var(--light);
 }
 
-@media screen and (max-width: 992px) {
-
-    :root {
-        font-size: 80%;
-    }
-
-}
-
+/* --dark: #202020;
+--light: #FFFAFA; */

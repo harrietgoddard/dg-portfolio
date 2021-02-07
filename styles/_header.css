@@ -1,0 +1,18 @@
+.header-main {
+    background-color: var(--dark);
+    text-align: center;
+    padding: var(--gutter) 0;
+}
+
+.nav-main__link:hover {
+    color: var(--accent);
+    transition: all 0.2s ease;
+}
+
+.nav-main__link:not(:first-child) {
+    margin-left: var(--gutter);
+}
+
+.nav-main__link:not(:last-child) {
+    margin-right: var(--gutter);
+}

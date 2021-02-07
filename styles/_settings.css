@@ -10,16 +10,3 @@
     --gutter: 1rem;
     --gutterwide: 2.5rem;
 }
-
-.wrapper {
-    margin: 0 var(--gutter);
-}
-
-@media screen and (max-width: 992px) {
-
-    :root {
-        font-size: 80%;
-    }
-
-}
-

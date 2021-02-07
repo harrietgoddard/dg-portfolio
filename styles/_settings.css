@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Pacifico&display=swap');
+
+:root {
+    --salmon: #FF6A7C;
+    --dark: #4A4A4A;
+    --light: #FEFEFE;
+    --aqua: #41CADD;
+    --beige: #FFF0E9;
+    --gray: #B2B5BA;
+    --gutter: 1rem;
+    --gutterwide: 2.5rem;
+}
+
+.wrapper {
+    margin: 0 var(--gutter);
+}
+
+@media screen and (max-width: 992px) {
+
+    :root {
+        font-size: 80%;
+    }
+
+}
+

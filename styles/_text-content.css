@@ -1,7 +1,7 @@
 .text-content {
     text-align: center;
     line-height: 30px;
-    padding: calc(var(--gutter) * 3);
+    padding: calc(var(--gutter-wide) * 2);
 }
 
 .text-content__title {

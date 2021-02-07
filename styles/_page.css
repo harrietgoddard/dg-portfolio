@@ -1,0 +1,40 @@
+.page-wrapper {
+  padding: calc(var(--gutter-wide) * 2);
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: calc(var(--gutter-wide) * 3);
+}
+
+.gallery__row {
+  display: flex;
+}
+
+.gallery__item {
+  flex-basis: calc(33.333% - var(--gutter));
+  position: relative;
+  margin: calc(var(--gutter) / 2);
+  overflow: hidden;
+}
+
+.gallery__item::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.gallery__item--wide {
+  width: 100%;
+  margin: calc(var(--gutter) / 2);
+}
+
+.gallery__image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.gallery__image--wide {
+  width: 100%;
+}

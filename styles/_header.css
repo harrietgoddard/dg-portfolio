@@ -4,6 +4,11 @@
     padding: var(--gutter) 0;
 }
 
+.nav-main__link:hover {
+    color: var(--accent);
+    transition: all 0.2s ease;
+}
+
 .nav-main__link:not(:first-child) {
     margin-left: var(--gutter);
 }

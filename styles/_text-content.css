@@ -1,0 +1,15 @@
+.text-content {
+    text-align: center;
+    line-height: 30px;
+    padding: calc(var(--gutter) * 3);
+}
+
+.text-content__title {
+    margin-bottom: calc(var(--gutter) * 2);
+    position: relative;
+}
+
+.text-content__text {
+    max-width: 850px;
+    margin: auto;
+}

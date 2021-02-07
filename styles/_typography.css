@@ -4,11 +4,11 @@ body {
     font-weight: 300;
     color: var(--dark);
     letter-spacing: 4px;
-    text-transform: lowercase;
 }
 
 .nav-main {
     color: var(--light);
+    text-transform: lowercase;
 }
 
 .hero__title {
@@ -16,4 +16,12 @@ body {
     text-transform: lowercase;
     font-size: 36px;
     font-weight: 300;
+}
+
+.section-header {
+    font-size: 34px;
+}
+
+.text-content__text {
+    letter-spacing: 2px;
 }

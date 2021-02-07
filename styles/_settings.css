@@ -4,6 +4,7 @@
 :root {
     --dark: #232323;
     --light: #FFFAFA;
+    --accent: #FFA07A;
     --gutter: 20px;
     --gutter-wide: 30px;
     --body-font: 'Roboto';

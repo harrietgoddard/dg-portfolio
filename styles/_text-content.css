@@ -13,3 +13,10 @@
     max-width: 850px;
     margin: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .text-content {
+        padding-left: var(--gutter);
+        padding-right: var(--gutter);
+    }
+}

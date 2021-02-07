@@ -25,3 +25,9 @@ body {
 .text-content__text {
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 768px) {
+    .hero__title {
+        font-size: 30px;
+    }
+}

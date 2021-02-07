@@ -23,8 +23,21 @@
 
 .hero__title {
     border: 3px solid var(--dark);
+    text-align: center;
     padding: var(--gutter) var(--gutter-wide);
     transform: translateY(12px);
     z-index: 1;
     cursor: default;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 250px;
+        padding-left: var(--gutter);
+        padding-right: var(--gutter);
+    }
+
+    .hero__title {
+        transform: none;
+    }
 }

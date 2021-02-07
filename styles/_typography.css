@@ -2,5 +2,18 @@ body {
     font-family: var(--body-font);
     font-size: var(--body-font-size);
     font-weight: 300;
+    color: var(--dark);
     letter-spacing: 4px;
+    text-transform: lowercase;
+}
+
+.nav-main {
+    color: var(--light);
+}
+
+.hero__title {
+    font-family: 'La Belle Aurore';
+    text-transform: lowercase;
+    font-size: 36px;
+    font-weight: 300;
 }

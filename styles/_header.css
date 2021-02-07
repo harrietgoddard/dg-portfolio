@@ -1,6 +1,5 @@
 .header-main {
     background-color: var(--dark);
-    color: var(--light);
     text-align: center;
     padding: var(--gutter) 0;
 }

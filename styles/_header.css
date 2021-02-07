@@ -1,0 +1,14 @@
+.header-main {
+    background-color: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: var(--gutter) 0;
+}
+
+.nav-main__link:not(:first-child) {
+    margin-left: var(--gutter);
+}
+
+.nav-main__link:not(:last-child) {
+    margin-right: var(--gutter);
+}

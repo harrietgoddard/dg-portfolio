@@ -12,4 +12,10 @@ document.addEventListener('scroll', function() {
   } else {
     stickyHeader.classList.remove('visible');
   }
+
+  if(pageYOffset < 10) {
+    stickyHeader.style.display = 'none';
+  } else {
+    stickyHeader.style.display = 'block';
+  }
 });

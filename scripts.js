@@ -8,7 +8,7 @@ document.addEventListener('scroll', function() {
 
   if(pageYOffset > headerHeight) {
     stickyHeader.classList.add('visible');
-    stickyHeader.style.transition = 'all 1s ease';
+    stickyHeader.style.transition = 'all 0.5s ease';
   } else {
     stickyHeader.classList.remove('visible');
   }

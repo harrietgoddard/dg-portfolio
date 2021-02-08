@@ -1,7 +1,20 @@
-.header-main {
+.header-main,
+.header-sticky {
     background-color: var(--dark);
     text-align: center;
     padding: var(--gutter) 0;
+}
+
+.header-sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
 }
 
 .nav-main__link:hover {
@@ -15,4 +28,13 @@
 
 .nav-main__link:not(:last-child) {
     margin-right: var(--gutter);
+}
+
+@keyframes smoothScroll {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }

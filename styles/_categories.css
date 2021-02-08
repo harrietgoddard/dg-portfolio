@@ -29,11 +29,11 @@
     display: block;
     padding-top: 100%;
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 .categories__item:hover::before {
-    opacity: 0.7;
+    opacity: 0.6;
     transition: all 0.2s ease;
 }
 

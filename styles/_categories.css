@@ -7,9 +7,21 @@
     flex-basis: calc(33.333% - var(--gutter));
     position: relative;
     margin: 0 calc(var(--gutter) / 2);
-    background-image: url(../images/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.categories__item.acrylic {
+  background-image: url(../images/placeholder-1.jpg);
+}
+
+.categories__item.oil {
+  background-image: url(../images/placeholder-2.jpg);
+}
+
+.categories__item.watercolour {
+  background-image: url(../images/placeholder-3.jpg);
+  background-position: bottom;
 }
 
 .categories__item::before {
@@ -17,11 +29,11 @@
     display: block;
     padding-top: 100%;
     background-color: black;
-    opacity: 0.2;
+    opacity: 0.3;
 }
 
 .categories__item:hover::before {
-    opacity: 0.5;
+    opacity: 0.6;
     transition: all 0.2s ease;
 }
 

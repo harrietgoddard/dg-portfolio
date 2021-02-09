@@ -12,9 +12,9 @@
 }
 
 .gallery__item {
-  flex-basis: calc(33.333% - var(--gutter));
+  flex-basis: calc(33.333% - var(--gutter) / 2);
   position: relative;
-  margin: calc(var(--gutter) / 2);
+  margin: calc(var(--gutter) / 4);
   overflow: hidden;
 }
 
@@ -26,7 +26,7 @@
 
 .gallery__item--wide {
   width: 100%;
-  margin: calc(var(--gutter) / 2);
+  margin: calc(var(--gutter) / 4);
 }
 
 .gallery__image {

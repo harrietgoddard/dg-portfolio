@@ -19,3 +19,20 @@ document.addEventListener('scroll', function() {
     stickyHeader.style.display = 'block';
   }
 });
+
+// mobile drawer
+
+const mobileOpenButtons = document.querySelectorAll('.mobile-drawer-open');
+const mobileCloseButton = document.querySelector('.mobile-drawer__close');
+const mobileDrawer = document.querySelector('.mobile-drawer');
+
+mobileOpenButtons.forEach(function(mobileOpenButton) {
+  mobileOpenButton.addEventListener('click', function() {
+    mobileDrawer.style.transition = 'all 0.5s ease';
+    mobileDrawer.style.transform = 'translateX(0)';
+  });
+});
+
+mobileCloseButton.addEventListener('click', function() {
+  mobileDrawer.style.transform = '';
+});

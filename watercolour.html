@@ -15,13 +15,20 @@
 	</head>
 
 	<body>
-		<header class="header-main">
-			<nav class="nav-main">
-				<a href="index.html" class="nav-main__link">Home</a>
-				<a href="acrylic.html" class="nav-main__link">Acrylic</a>
-				<a href="oil.html" class="nav-main__link">Oil</a>
-				<a href="watercolour.html" class="nav-main__link">Watercolour</a>
-			</nav>
+    <header class="header-main">
+      <nav class="nav-main">
+        <a href="index.html" class="nav-main__link">Home</a>
+        <a href="acrylic.html" class="nav-main__link">Acrylic</a>
+        <a href="oil.html" class="nav-main__link">Oil</a>
+        <a href="watercolour.html" class="nav-main__link">Watercolour</a>
+      </nav>
+      <div class="mobile-drawer-open">
+        <svg viewBox="0 0 100 80" width="40" height="40">
+          <rect width="100" height="5"></rect>
+          <rect y="30" width="100" height="5"></rect>
+          <rect y="60" width="100" height="5"></rect>
+        </svg>
+      </div>
     </header>
     
     <header class="header-sticky">
@@ -31,7 +38,29 @@
         <a href="oil.html" class="nav-main__link">Oil</a>
         <a href="watercolour.html" class="nav-main__link">Watercolour</a>
       </nav>
+      <div class="mobile-drawer-open">
+        <svg viewBox="0 0 100 80" width="40" height="40">
+          <rect width="100" height="5"></rect>
+          <rect y="30" width="100" height="5"></rect>
+          <rect y="60" width="100" height="5"></rect>
+        </svg>
+      </div>
     </header>
+    
+    <div class="mobile-drawer">
+      <div class="mobile-drawer__close">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50" overflow="visible" stroke="currentColor" stroke-width="5" stroke-linecap="round">
+          <line x1="0" y1="0" x2="50" y2="50" />
+          <line x1="50" y1="0" x2="0" y2="50" />
+        </svg>
+      </div>
+      <nav class="nav-mobile">
+        <a href="index.html" class="nav-mobile__link">Home</a>
+        <a href="acrylic.html" class="nav-mobile__link">Acrylic</a>
+        <a href="oil.html" class="nav-mobile__link">Oil</a>
+        <a href="watercolour.html" class="nav-mobile__link">Watercolour</a>
+      </nav>        
+    </div>
 
 		<main class="page-wrapper">
       <h1 class="page-title section-header">Watercolour</h1>

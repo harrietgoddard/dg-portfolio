@@ -1,7 +1,7 @@
 /* @import '_reset.css';
-@import '_settings.css';
-@import '_typography.css';
-@import '_buttons.css';
+@import '_settings.css'; */
+@import 'typography.css';
+/* @import '_buttons.css';
 @import '_header.css';
 @import '_hero.css';
 @import '_text-content.css';

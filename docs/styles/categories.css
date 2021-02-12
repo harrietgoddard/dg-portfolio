@@ -1,6 +1,8 @@
 .categories {
     padding: 0 calc(var(--gutter-wide) * 2);
     display: flex;
+    max-width: 1100px;
+    margin: auto;
 }
 
 .categories__item {

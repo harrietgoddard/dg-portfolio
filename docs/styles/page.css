@@ -1,5 +1,7 @@
 .page-wrapper {
   padding: calc(var(--gutter-wide) * 2);
+  max-width: 1200px;
+  margin: auto;
 }
 
 .page-title {
@@ -38,4 +40,29 @@
 
 .gallery__image--wide {
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .page-wrapper {
+    padding: calc(var(--gutter-wide) * 2) var(--gutter-wide) 0;
+  }
+  
+  .gallery__row {
+    display: block;
+    overflow: hidden;
+  }
+
+  .gallery__item {
+    margin: 0 0 var(--gutter-wide) 0;
+  }
+
+  .gallery__item--wide {
+    margin: 0 0 var(--gutter-wide) 0;
+    height: 150px;
+  }
+
+  .gallery__image--wide {
+    height: 100%;
+    object-fit: cover;
+  }
 }

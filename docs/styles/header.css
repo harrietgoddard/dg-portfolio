@@ -33,8 +33,17 @@
 
 .mobile-drawer-open {
   display: none;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  margin-left: calc(var(--gutter) / 2);
   fill: var(--light);
-  padding: 0 var(--gutter);
+}
+
+.mobile-drawer-open svg {
+  width: 30px;
+  height: 30px;
 }
 
 .mobile-drawer {
@@ -56,7 +65,7 @@
 .nav-mobile__link {
   color: var(--light);
   padding: var(--gutter-wide);
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .mobile-drawer__close {
@@ -83,6 +92,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .header-main {
+    padding: calc(var(--gutter)/2) 0;
+  }
+  
   .nav-main {
     display: none;
   }

@@ -1,19 +1,19 @@
 .categories__btn {
-    background: none;
-    border: none;
-    font-family: var(--body-font);
-    font-size: 22px;
-    font-weight: 300;
-    text-transform: lowercase;
-    color: var(--light);
-    letter-spacing: 4px;
-    padding: calc(var(--gutter) / 2) var(--gutter);
-    border: 2px solid var(--light);
-    cursor: pointer;
+  background: none;
+  border: none;
+  font-family: var(--body-font);
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: lowercase;
+  color: var(--light);
+  letter-spacing: 4px;
+  padding: calc(var(--gutter) / 2) var(--gutter);
+  border: 2px solid var(--light);
+  cursor: pointer;
 }
 
 .categories__btn:hover {
-    color: var(--accent);
-    border-color: var(--accent);
-    transition: all 0.2s ease;
+  color: var(--accent);
+  border-color: var(--accent);
+  transition: all 0.2s ease;
 }

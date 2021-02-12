@@ -92,7 +92,8 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header-main {
+  .header-main,
+  .header-sticky {
     padding: calc(var(--gutter)/2) 0;
   }
   

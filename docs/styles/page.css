@@ -1,5 +1,7 @@
 .page-wrapper {
   padding: calc(var(--gutter-wide) * 2);
+  max-width: 1200px;
+  margin: auto;
 }
 
 .page-title {

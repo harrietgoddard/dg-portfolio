@@ -65,7 +65,7 @@
 .nav-mobile__link {
   color: var(--light);
   padding: var(--gutter-wide);
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .mobile-drawer__close {

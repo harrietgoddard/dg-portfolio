@@ -8,3 +8,7 @@
 @import '_footer.css';
 @import '_categories.css';
 @import '_page.css';
+
+header {
+  color: red !important;
+}

@@ -1,4 +1,4 @@
-@import '_reset.css';
+/* @import '_reset.css';
 @import '_settings.css';
 @import '_typography.css';
 @import '_buttons.css';
@@ -7,7 +7,7 @@
 @import '_text-content.css';
 @import '_footer.css';
 @import '_categories.css';
-@import '_page.css';
+@import '_page.css'; */
 
 header {
   color: red !important;

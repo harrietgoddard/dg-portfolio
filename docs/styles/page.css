@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 768px) {
   .page-wrapper {
-    padding: calc(var(--gutter-wide) * 2) var(--gutter-wide) 0;
+    padding: calc(var(--gutter-wide) * 2) var(--gutter) 0;
   }
   
   .gallery__row {
@@ -53,11 +53,11 @@
   }
 
   .gallery__item {
-    margin: 0 0 var(--gutter-wide) 0;
+    margin: 0 0 var(--gutter) 0;
   }
 
   .gallery__item--wide {
-    margin: 0 0 var(--gutter-wide) 0;
+    margin: 0 0 var(--gutter) 0;
     height: 150px;
   }
 

@@ -40,5 +40,6 @@
 
   .hero__title {
     transform: none;
+    padding: var(--gutter) var(--gutter);
   }
 }

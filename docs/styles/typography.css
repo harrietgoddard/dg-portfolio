@@ -11,10 +11,16 @@ body {
     text-transform: lowercase;
 }
 
+.nav-mobile__link {
+  color: var(--light);
+  padding: var(--gutter-wide);
+  text-transform: lowercase;
+  font-size: 18px;
+}
+
 .hero__title {
-    font-family: 'La Belle Aurore';
-    text-transform: lowercase;
-    font-size: 36px;
+    font-family: 'Calligraffitti';
+    font-size: 35px;
     font-weight: 300;
 }
 

@@ -14,15 +14,16 @@
 }
 
 .categories__item.acrylic {
-  background-image: url(../images/placeholder-1.jpg);
+  background-image: url(../images/acrylic-1.jpg);
+  background-position: -50px;
 }
 
 .categories__item.oil {
-  background-image: url(../images/placeholder-2.jpg);
+  background-image: url(../images/oil-1.jpg);
 }
 
 .categories__item.watercolour {
-  background-image: url(../images/placeholder-3.jpg);
+  background-image: url(../images/watercolour-1.jpg);
   background-position: bottom;
 }
 

@@ -62,12 +62,6 @@
   flex-direction: column;
 }
 
-.nav-mobile__link {
-  color: var(--light);
-  padding: var(--gutter-wide);
-  font-size: 18px;
-}
-
 .mobile-drawer__close {
   width: 44px;
   height: 44px;

@@ -1,6 +1,7 @@
 .page-wrapper {
   padding: calc(var(--gutter-wide) * 2);
   max-width: 1200px;
+  min-height: 100vh;
   margin: auto;
 }
 
@@ -40,6 +41,11 @@
 
 .gallery__image--wide {
   width: 100%;
+}
+
+.centralize {
+  width: 100%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {

@@ -2,7 +2,7 @@
 .header-sticky {
     background-color: var(--dark);
     text-align: center;
-    padding: var(--gutter) 0;
+    padding: var(--gutter-m) 0;
 }
 
 .header-sticky {
@@ -24,11 +24,11 @@
 }
 
 .nav-main__link:not(:first-child) {
-    margin-left: var(--gutter);
+    margin-left: var(--gutter-m);
 }
 
 .nav-main__link:not(:last-child) {
-    margin-right: var(--gutter);
+    margin-right: var(--gutter-m);
 }
 
 .mobile-drawer-open {
@@ -37,7 +37,7 @@
   align-items: center;
   width: 44px;
   height: 44px;
-  margin-left: calc(var(--gutter) / 2);
+  margin-left: var(--gutter-s);
   fill: var(--light);
 }
 
@@ -88,7 +88,7 @@
 @media screen and (max-width: 768px) {
   .header-main,
   .header-sticky {
-    padding: calc(var(--gutter)/2) 0;
+    padding: var(--gutter-s) 0;
   }
   
   .nav-main {

@@ -13,7 +13,7 @@ body {
 
 .nav-mobile__link {
   color: var(--light);
-  padding: var(--gutter-wide);
+  padding: var(--gutter-l);
   text-transform: lowercase;
   font-size: 18px;
 }

@@ -36,3 +36,44 @@ mobileOpenButtons.forEach(function(mobileOpenButton) {
 mobileCloseButton.addEventListener('click', function() {
   mobileDrawer.style.transform = '';
 });
+
+// pop up images
+
+const images = document.querySelectorAll('.js-img');
+const popUpOverlay = document.querySelector('.pop-up-overlay');
+const popUpContainer = document.querySelector('.pop-up-container');
+const popUpClose = document.querySelector('.pop-up-close');
+
+// open pop up
+
+function openPopUp(image) {
+  let popUpImage = image.cloneNode(true);
+  popUpImage.classList.remove('gallery__image', 'gallery__image--wide', 'centralize');
+  popUpContainer.appendChild(popUpImage);
+  popUpOverlay.style.display = 'flex';
+  popUpOverlay.style.paddingTop = `${header.offsetHeight}px`;
+}
+
+images.forEach(function(image) {
+  image.addEventListener('click', function() {
+    openPopUp(image);
+  })
+});
+
+// close pop up
+
+function closePopUp() {
+  const popUpImage = popUpOverlay.getElementsByTagName('img');
+  popUpOverlay.style.display = '';
+  popUpContainer.removeChild(popUpImage[0]);
+}
+
+popUpClose.addEventListener('click', function() {
+  closePopUp();
+})
+
+popUpOverlay.addEventListener('click', function(e) {
+  if(e.target == popUpOverlay) {
+    closePopUp();
+  }
+})

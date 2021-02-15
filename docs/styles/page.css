@@ -41,6 +41,7 @@
 
 .gallery__image--wide {
   width: 100%;
+  display: block;
 }
 
 .centralize {
@@ -70,5 +71,12 @@
   .gallery__image--wide {
     height: 100%;
     object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .gallery__item,
+  .gallery__item--wide {
+    cursor: pointer;
   }
 }

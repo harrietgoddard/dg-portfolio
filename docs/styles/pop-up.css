@@ -1,10 +1,11 @@
 .pop-up-overlay {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 3;
   justify-content: center;
   align-items: center;
   display: none;
@@ -17,7 +18,7 @@
 .pop-up-container img {
   max-width: 80vw;
   max-height: 80vh;
-  border: 8px solid white;
+  border: 8px solid var(--light);
 }
 
 .pop-up-close {

@@ -6,8 +6,10 @@
     --dark: #232323;
     --light: #eeecff;
     --accent: #FFA07A;
-    --gutter: 20px;
-    --gutter-wide: 30px;
+    --gutter-s: 10px;
+    --gutter-m: 20px;
+    --gutter-l: 30px;
+    --gutter-xl: 60px;
     --body-font: 'Roboto';
     --body-font-size: 16px;
 }

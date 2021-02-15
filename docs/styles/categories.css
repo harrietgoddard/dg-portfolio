@@ -1,14 +1,14 @@
 .categories {
-  padding: 0 calc(var(--gutter-wide) * 2);
+  padding: 0 var(--gutter-xl);
   display: flex;
   max-width: 1100px;
   margin: auto;
 }
 
 .categories__item {
-  flex-basis: calc(33.333% - var(--gutter));
+  flex-basis: calc(33.333% - var(--gutter-m));
   position: relative;
-  margin: 0 calc(var(--gutter) / 2);
+  margin: 0 var(--gutter-s);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -61,12 +61,12 @@
   }
 
   .categories__item {
-    margin: calc(var(--gutter) / 2) 0;
+    margin: var(--gutter-s) 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .categories {
-    padding: 0 var(--gutter);
+    padding: 0 var(--gutter-m);
   }
 }

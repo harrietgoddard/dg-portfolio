@@ -3,5 +3,5 @@
   color: var(--light);
   text-align: center;
   text-transform: lowercase;
-  padding: var(--gutter) 0;
+  padding: var(--gutter-m) 0;
 }

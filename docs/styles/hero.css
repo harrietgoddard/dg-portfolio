@@ -24,7 +24,7 @@
 .hero__title {
   border: 3px solid var(--dark);
   text-align: center;
-  padding: var(--gutter) var(--gutter-wide);
+  padding: var(--gutter-m) var(--gutter-l);
   transform: translateY(12px);
   z-index: 1;
   cursor: default;
@@ -33,13 +33,13 @@
 @media screen and (max-width: 768px) {
   .hero {
     height: 250px;
-    padding-left: var(--gutter);
-    padding-right: var(--gutter);
+    padding-left: var(--gutter-m);
+    padding-right: var(--gutter-m);
     background-position: center;
   }
 
   .hero__title {
     transform: none;
-    padding: var(--gutter) var(--gutter);
+    padding: var(--gutter-m) var(--gutter-m);
   }
 }

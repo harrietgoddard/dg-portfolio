@@ -7,7 +7,7 @@
   text-transform: lowercase;
   color: var(--light);
   letter-spacing: 4px;
-  padding: calc(var(--gutter) / 2) var(--gutter);
+  padding: var(--gutter-s) var(--gutter-m);
   border: 2px solid var(--light);
   cursor: pointer;
 }

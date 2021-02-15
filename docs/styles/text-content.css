@@ -1,11 +1,11 @@
 .text-content {
   text-align: center;
   line-height: 30px;
-  padding: calc(var(--gutter-wide) * 2);
+  padding: var(--gutter-xl);
 }
 
 .text-content__title {
-  margin-bottom: calc(var(--gutter) * 2);
+  margin-bottom: calc(var(--gutter-m) * 2);
   position: relative;
 }
 
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
   .text-content {
-    padding-left: var(--gutter);
-    padding-right: var(--gutter);
+    padding-left: var(--gutter-m);
+    padding-right: var(--gutter-m);
   }
 }

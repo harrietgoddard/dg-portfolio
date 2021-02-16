@@ -10,6 +10,12 @@
   margin-bottom: var(--gutter-xl);
 }
 
+.page-info--large,
+.page-info--small {
+  text-align: center;
+  margin-bottom: var(--gutter-m);
+}
+
 .gallery__row {
   display: flex;
 }
@@ -53,6 +59,10 @@
   .page-wrapper {
     padding: var(--gutter-xl) var(--gutter-m) 0;
   }
+
+  .page-info--large {
+    display: none;
+  }
   
   .gallery__row {
     display: block;
@@ -75,6 +85,10 @@
 }
 
 @media screen and (min-width: 769px) {
+  .page-info--small {
+    display: none;
+  }
+  
   .gallery__item,
   .gallery__item--wide {
     cursor: pointer;

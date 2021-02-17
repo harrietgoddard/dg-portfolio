@@ -1,0 +1,39 @@
+.pop-up-overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.pop-up-container {
+  position: relative;
+}
+
+.pop-up-container img {
+  max-width: 80vw;
+  max-height: 80vh;
+  border: 8px solid var(--light);
+}
+
+.pop-up-close {
+  width: 44px;
+  height: 44px;
+  background-color: var(--light);
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pop-up-close svg {
+  width: 15px;
+  height: 15px
+}

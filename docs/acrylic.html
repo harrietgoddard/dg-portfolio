@@ -5,9 +5,9 @@
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie-edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Dorothy Goddard - amateur artist portfolio">
+		<meta name="description" content="Watercolour, oil and acrylic artist based in the South West of England">
 		<link rel="apple-touch-icon" href="icon.png">
-		<!-- favicon.ico -->
+		<link rel="icon" href="images/palette.svg">
 		<link rel="stylesheet" href="styles/style.css">
 		<script src="scripts.js" defer></script>
 
@@ -65,20 +65,31 @@
 		<main class="page-wrapper">
 
       <h1 class="page-title section-header">Acrylic</h1>
-
+      <p class="page-info--large">Click to view full size</p>
+      <p class="page-info--small">Tap to view original size</p>
       <section class="gallery">
         <div class="gallery__row">
           <div class="gallery__item">
-            <img src="./images/acrylic-2.jpg" alt="Monochrome seascape in acrylic" class="gallery__image centralize">
+            <img src="./images/acrylic-2.jpg" alt="Monochrome seascape in acrylic" class="gallery__image centralize js-img">
           </div>
           <div class="gallery__item">
-            <img src="./images/acrylic-3.jpg" alt="Riverside trees in acrylic" class="gallery__image centralize">
+            <img src="./images/acrylic-3.jpg" alt="Riverside trees in acrylic" class="gallery__image centralize js-img">
           </div>
           <div class="gallery__item">
-            <img src="./images/acrylic-4.jpg" alt="Riverside trees in acrylic" class="gallery__image centralize">
+            <img src="./images/acrylic-4.jpg" alt="Riverside trees in acrylic" class="gallery__image centralize js-img">
           </div>
         </div>
       </section>
+      <div class="pop-up-overlay">
+        <div class="pop-up-container">
+          <div class="pop-up-close" aria-label="Image close">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50" overflow="visible" stroke="currentColor" stroke-width="5" stroke-linecap="round">
+              <line x1="0" y1="0" x2="50" y2="50" />
+              <line x1="50" y1="0" x2="0" y2="50" />
+            </svg>
+          </div>
+        </div>
+      </div>
 		</main>
 
 		<footer class="footer-main">

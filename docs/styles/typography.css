@@ -32,6 +32,12 @@ body {
     letter-spacing: 2px;
 }
 
+.page-info--large,
+.page-info--small {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
 @media screen and (max-width: 768px) {
     .hero__title {
         font-size: 25px;

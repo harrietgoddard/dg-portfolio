@@ -55,6 +55,10 @@
   object-fit: cover;
 }
 
+.width-50 .gallery__item {
+  flex-basis: 50%;
+}
+
 @media screen and (max-width: 768px) {
   .page-wrapper {
     padding: var(--gutter-xl) var(--gutter-m) 0;

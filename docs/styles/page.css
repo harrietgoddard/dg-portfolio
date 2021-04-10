@@ -97,4 +97,14 @@
   .gallery__item--wide {
     cursor: pointer;
   }
+
+  .crop-height {
+    max-height: 500px;
+  }
+  
+  .crop-height img {
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 35%;
+  }
 }

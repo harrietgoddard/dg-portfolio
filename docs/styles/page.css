@@ -59,6 +59,10 @@
   flex-basis: 50%;
 }
 
+.position-right {
+  right: 0;
+}
+
 @media screen and (max-width: 768px) {
   .page-wrapper {
     padding: var(--gutter-xl) var(--gutter-m) 0;
@@ -96,15 +100,5 @@
   .gallery__item,
   .gallery__item--wide {
     cursor: pointer;
-  }
-
-  .crop-height {
-    max-height: 500px;
-  }
-  
-  .crop-height img {
-    height: 100%;
-    object-fit: cover;
-    object-position: 0% 35%;
   }
 }

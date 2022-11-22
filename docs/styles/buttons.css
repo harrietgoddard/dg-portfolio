@@ -17,3 +17,7 @@
   border-color: var(--accent);
   transition: all 0.2s ease;
 }
+
+.categories__btn--nowrap {
+  white-space: nowrap;
+}
